@@ -1,0 +1,177 @@
+@font-face {
+    font-family: Langdon;
+    src: url(fonts/Langdon_2.otf)
+}
+@font-face {
+    font-family: Library;
+    src: url(fonts/Library\ 3\ am.otf)
+}
+@font-face {
+    font-family: Bellota;
+    src: url(fonts/Bellota-Bold.otf);
+}
+html, body{
+    height: 145vh;
+    overflow-x: hidden;
+    overflow-wrap: normal;
+    overscroll-behavior: none;
+    
+
+}
+body {
+    background-image: url(assets/contact\ bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    
+    
+}
+#main-menu, nav {
+    display: flex;
+    gap: 50px;
+    justify-content: flex-end;
+    align-items: start;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+#main-menu li {
+    list-style-type: none;
+}
+#main-menu, section input {
+border: none;
+background-color: transparent;
+font-family: Library;
+font-size: 20px;
+color: black;
+}
+#main-menu input:hover {
+    color: rgb(252,128,202); 
+}
+h1 {
+    font-family: Langdon;
+    font-size: 32px;
+    color: black;
+    font-weight: lighter;
+    text-align: center;
+}
+h2 {
+    font-family: Langdon;
+    font-size: 20px;
+    color: black;
+    font-weight: lighter;
+    position: relative;
+    top: 10px;
+}
+label {
+    font-family: Library;
+    font-size: 15px;
+    color: black;
+    font-weight: lighter;
+}
+input {
+    outline: none;
+    text-align: center;  
+}
+fieldset {
+    border: none;
+    background-color: white;
+    border-radius: 62px;
+    position: relative;
+    left: 75px;
+    top: 300px;
+    display:inline;
+   
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 35px;
+    padding-top:10px;
+
+    box-shadow: 14px 15px 8.5px rgba(0, 0, 0, 0.5);
+   
+
+}
+#name {
+    background-color: rgba(182,235,140,0.3);
+    border-radius: 24px;
+    width: 278px;
+    height: 22px;
+    margin-bottom: 10px;
+    
+}
+#email {
+    background-color: rgba(182,235,140,0.3);
+    border-radius: 24px;
+    width: 273px;
+    height: 22px;
+    margin-bottom: 10px;
+}
+#phone {
+    background-color: rgba(182,235,140,0.3);
+    border-radius: 24px;
+    width: 193px;
+    height: 22px;
+}
+#design {
+    background-color: rgba(148,226,237,0.3);
+    border-radius: 24px;
+    width:337px;
+}
+#description {
+    background-color: rgba(148,226,237,0.3);
+    border-radius: 24px;
+    height: 88px;
+    width: 337px;
+    margin-bottom: 10px;
+}
+#title {
+    font-family: Langdon;
+    font-size: 48px;
+    font-weight: lighter;
+    position: relative;
+    bottom: 325px;
+    left: 200px;
+}
+p {
+    font-family: Bellota;
+    font-size: 20px;
+    position: relative;
+    bottom: 355px;
+    left: 850px;
+}
+#line {
+    position: relative;
+    left: 1070px;
+    bottom: 1000px;
+}
+#work {
+    font-family: Library;
+    font-size: 36px;
+    font-weight: lighter;
+    position: relative; 
+    bottom: 520px;
+    left:490px;
+}
+#star {
+    position: relative;
+    bottom: 350px;
+    right: 25px;
+    
+}
+button {
+    font-family: Langdon;
+    font-size: 16px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 24px;
+    background-color: rgba(201,153,239,0.3);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+button:hover {
+    background-color: rgba(201,153,239,1);
+    color: white;
+}
+

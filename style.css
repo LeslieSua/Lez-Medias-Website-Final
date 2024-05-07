@@ -1,0 +1,132 @@
+@font-face {
+    font-family: Langdon;
+    src: url(fonts/Langdon_2.otf)
+}
+@font-face {
+    font-family: Library;
+    src: url(fonts/Library\ 3\ am.otf)
+}
+@font-face {
+    font-family: Bellota;
+    src: url(fonts/Bellota-Bold.otf);
+}
+html, body {
+    
+    overflow-x: hidden;
+    height: 3280px;
+    overscroll-behavior: none;
+   
+   
+}
+
+/* Background */
+
+body {
+    background-image: url(assets/ultimate\ background.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+
+
+}
+
+/* Menu Bar */
+
+#main-menu, nav {
+    display: flex;
+    gap: 50px;
+    justify-content: flex-end;
+    align-items: start;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+#main-menu li {
+    list-style-type: none;
+}
+#main-menu, section input {
+border: none;
+background-color: transparent;
+font-family: Library;
+font-size: 20px;
+color: black;
+
+}
+#main-menu input:hover {
+    color: rgb(252,128,202); 
+}
+
+/* Images */
+
+.middle div{
+    margin-top: 500px;
+    position: relative;
+    bottom: 50px;
+}
+.middle span {
+    position: relative;
+    bottom: 0px;
+    left: 975px;
+}
+
+/* Text */
+
+#main-text {
+    font-family: Langdon;
+    src: url(fonts/Langdon_2.otf);
+    font-size: 48px;
+    font-weight: lighter;
+    position: relative;
+    bottom: 800px;
+    left: 490px;
+}
+#sub-text {
+    font-family: Library;
+    src: url(fonts/Library\ 3\ am.otf);
+    font-size: 36px;
+    font-weight: lighter;
+    position: relative;
+    bottom: 830px;
+    left: 510px;
+}
+#paragraph {
+    font-family: Bellota;
+    src: url(fonts/Bellota-Bold.otf);
+    font-size: 20px;
+    position: relative;
+    bottom: 900px;
+    left: 510px;
+}
+
+/* lines TT */
+div span {
+    position: relative;
+    bottom: 93px;
+    left: 810px;
+}
+#projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
+    position: relative;
+    bottom: 900px;
+    width: 607px;
+    margin-left: 115px;
+}
+
+/* Design Projects */
+
+span img {
+    position: relative; 
+    bottom: 800px;
+}
+
+#design {
+    font-family: Langdon;
+    src: url(fonts/Langdon_2.otf);
+    font-size: 80px;
+    font-weight: lighter;
+    position: relative;
+    bottom: 976px;
+    left: 80px;
+}

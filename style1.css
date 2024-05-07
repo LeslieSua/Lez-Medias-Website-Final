@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Langdon;
+    src: url(fonts/Langdon_2.otf)
+}
+@font-face {
+    font-family: Library;
+    src: url(fonts/Library\ 3\ am.otf)
+}
+@font-face {
+    font-family: Bellota;
+    src: url(fonts/Bellota-Bold.otf);
+}
+html, body{
+    overflow-x: hidden;
+    height: 145vh;
+    overscroll-behavior: none;
+    
+}
+/* Background */
+
+body {
+    background-image: url(assets/socials\ bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+
+    
+
+}
+#main-menu, nav{
+    display: flex;
+    gap: 50px;
+    justify-content: flex-end;
+    align-items: start;
+    margin-top: 35px;
+    margin-right: 60px; 
+}
+#main-menu, section
+input {
+ border: none;
+background-color: transparent;
+font-family: Library;
+font-size: 20px;
+color: black;
+
+}
+#main-menu li{
+    list-style-type: none;
+}
+#main-menu input:hover {
+    color: rgb(252,128,202); 
+}
+
+#star1 {
+    position: relative;
+    top: 240px;
+    left: 80px;
+}
+#middle span{
+    position: relative;
+    bottom: 420px;
+    left: 470px;
+    
+}
+#star2 {
+    position: relative;
+    bottom: 850px;
+    left: 930px;
+}
+#linked {
+    position: relative;
+    bottom: 850px;
+    left: 215px;
+}
+#bottom span {
+    position: relative;
+    bottom: 945px;
+    left: 580px;
+}
+#face {
+    position: relative;
+    bottom: 1042px;
+    left: 995px;
+}
